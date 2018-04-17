@@ -3,11 +3,11 @@ Add RecordCommand
 
 
 1.Add a camera(unrealcv/private/recording/saveRenderCamera)
-![](docs/CameraPic.jpg)
-![](docs/cameraPic2.jpg)
+![](docs/CameraPic.png)
+![](docs/cameraPic2.png)
 
 2.Add a actor tag to camera
-![](docs/tagPic.jpg)
+![](docs/tagPic.png)
 
 3.run command
 
@@ -37,7 +37,7 @@ imageNumber                             how many pics to save.
 
 
 default values
-![](docs/tagPic.jpg)
+![](docs/tagPic.png)
 
 
 eg :vset /action/rec/start cameratag1 lit F:/Myproject/Saved/ 50 1920 1080 100
