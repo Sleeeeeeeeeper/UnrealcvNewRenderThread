@@ -1,7 +1,7 @@
 # UnrealcvNewRenderThread
 Add RecordCommand
 
-
+Usage：
 1.Add a camera(unrealcv/private/recording/saveRenderCamera)
 ![](Docs/CameraPic.png)
 ![](Docs/cameraPic2.png)
