@@ -17,8 +17,12 @@ ASaveRenderCameraActor::ASaveRenderCameraActor()
 {
 	CaptureComponent2D = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("NewSceneCaptureComponent2D"));
 	CaptureComponent2D->SetupAttachment(RootComponent);
+	CaptureComponent2D->CaptureSource = SCS_FinalColorLDR;
+	CaptureComponent2D->bAutoActivate = false;
 	CaptureComponent2DDeep = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("NewSceneCaptureComponent2DDeep"));
 	CaptureComponent2DDeep->SetupAttachment(RootComponent);
+	CaptureComponent2DDeep->CaptureSource = SCS_FinalColorLDR;
+	CaptureComponent2DDeep->bAutoActivate = false;
 
 	CaptureRenderTarget0 = CreateDefaultSubobject<UTextureRenderTarget2D>(TEXT("CaptureRenderTarget0"));
 	CaptureRenderTargetDeep = CreateDefaultSubobject<UTextureRenderTarget2D>(TEXT("CaptureRenderTargetDeep"));
