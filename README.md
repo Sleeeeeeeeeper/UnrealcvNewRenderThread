@@ -21,19 +21,19 @@ vset /action/rec/start cameraTag imageType filepath deltaTime width height image
 
 
 
-cameraTag                               to find target camera by tag. 
+cameraTag  ：                             to find target camera by tag. 
 
-imageType                                "lit" or "depth".
+imageType  ：                             "lit" or "depth".
 
-filepath                                savepath endwith"/".
+filepath  ：                              savepath endwith"/".
 
-deltaTime                               time between two save(unit:ms).
+deltaTime  ：                             time between two save(unit:ms).
 
-width                                    resolution
+width   ：                                 resolution
 
-height                                   resolution
+height   ：                                resolution
 
-imageNumber                             how many pics to save.
+imageNumber  ：                           how many pics to save.
 
 
 default values
