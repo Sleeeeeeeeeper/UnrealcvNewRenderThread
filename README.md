@@ -37,7 +37,7 @@ imageNumber                             how many pics to save.
 
 
 default values
-![](Docs/tagPic.png)
+![](Docs/DefaultValue.png)
 
 
 eg :vset /action/rec/start cameratag1 lit F:/Myproject/Saved/ 50 1920 1080 100
